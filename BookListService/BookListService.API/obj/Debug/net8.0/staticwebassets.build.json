@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Vl9qTbR5WDlZJ42O3FfsnBhAC6TWUOxeYdj9GzsxyXs=",
+  "Source": "BookListService.API",
+  "BasePath": "_content/BookListService.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
