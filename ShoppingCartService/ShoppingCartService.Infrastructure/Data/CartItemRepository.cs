@@ -6,7 +6,7 @@ namespace ShoppingCartService.Infrastructure.Data;
 
 public class CartItemRepository : ICartItemRepository
 {
-    private readonly string _filePath = "Data/CartItems.json";
+    private readonly string _filePath = "D:\\Interviews\\Assignments\\BookStoreBackEnd\\ShoppingCartService\\ShoppingCartService.Infrastructure\\Data\\CartItems.json";
 
     public async Task<IEnumerable<CartItem>> GetCartItemsAsync()
     {
