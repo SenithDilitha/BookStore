@@ -5,13 +5,23 @@ VisualStudioVersion = 17.11.35208.52
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BookListService", "BookListService", "{39D6E480-7400-4823-8C51-F7F275E3BE45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookListService.API", "BookListService\BookListService.API\BookListService.API.csproj", "{02367F16-E3D3-4FC7-81DB-9790BEDE327D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookListService.API", "BookListService\BookListService.API\BookListService.API.csproj", "{02367F16-E3D3-4FC7-81DB-9790BEDE327D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookListService.Application", "BookListService\BookListService.Application\BookListService.Application.csproj", "{0474184B-3314-4DF2-9E0A-C8727CF98755}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookListService.Application", "BookListService\BookListService.Application\BookListService.Application.csproj", "{0474184B-3314-4DF2-9E0A-C8727CF98755}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookListService.Domain", "BookListService\BookListService.Domain\BookListService.Domain.csproj", "{12B97818-7B19-4AB3-89B9-659EA04D30B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookListService.Domain", "BookListService\BookListService.Domain\BookListService.Domain.csproj", "{12B97818-7B19-4AB3-89B9-659EA04D30B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookListService.Infrastructure", "BookListService\BookListService.Infrastructure\BookListService.Infrastructure.csproj", "{C6FDF826-145D-4253-BEB5-360338B48F30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookListService.Infrastructure", "BookListService\BookListService.Infrastructure\BookListService.Infrastructure.csproj", "{C6FDF826-145D-4253-BEB5-360338B48F30}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ShoppingCartService", "ShoppingCartService", "{4FB19FA5-BDBA-4A39-9BA4-9482CC6E3994}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCartService.API", "ShoppingCartService\ShoppingCartService.API\ShoppingCartService.API.csproj", "{CC3BD28D-7BC4-4CDE-9A09-C20FC1EA305F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCartService.Domain", "ShoppingCartService\ShoppingCartService.Domain\ShoppingCartService.Domain.csproj", "{E1CE5113-09AE-483E-B3DF-1FE25059E6E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCartService.Infrastructure", "ShoppingCartService\ShoppingCartService.Infrastructure\ShoppingCartService.Infrastructure.csproj", "{2C0B93CD-BCEB-4DA6-BF98-1AC0563558DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCartService.Application", "ShoppingCartService\ShoppingCartService.Application\ShoppingCartService.Application.csproj", "{FF29D20F-5970-4471-825B-4E7FE3090B88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +45,22 @@ Global
 		{C6FDF826-145D-4253-BEB5-360338B48F30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6FDF826-145D-4253-BEB5-360338B48F30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6FDF826-145D-4253-BEB5-360338B48F30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC3BD28D-7BC4-4CDE-9A09-C20FC1EA305F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC3BD28D-7BC4-4CDE-9A09-C20FC1EA305F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC3BD28D-7BC4-4CDE-9A09-C20FC1EA305F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC3BD28D-7BC4-4CDE-9A09-C20FC1EA305F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1CE5113-09AE-483E-B3DF-1FE25059E6E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1CE5113-09AE-483E-B3DF-1FE25059E6E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1CE5113-09AE-483E-B3DF-1FE25059E6E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1CE5113-09AE-483E-B3DF-1FE25059E6E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C0B93CD-BCEB-4DA6-BF98-1AC0563558DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C0B93CD-BCEB-4DA6-BF98-1AC0563558DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C0B93CD-BCEB-4DA6-BF98-1AC0563558DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C0B93CD-BCEB-4DA6-BF98-1AC0563558DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF29D20F-5970-4471-825B-4E7FE3090B88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF29D20F-5970-4471-825B-4E7FE3090B88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF29D20F-5970-4471-825B-4E7FE3090B88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF29D20F-5970-4471-825B-4E7FE3090B88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,6 +69,11 @@ Global
 		{02367F16-E3D3-4FC7-81DB-9790BEDE327D} = {39D6E480-7400-4823-8C51-F7F275E3BE45}
 		{0474184B-3314-4DF2-9E0A-C8727CF98755} = {39D6E480-7400-4823-8C51-F7F275E3BE45}
 		{12B97818-7B19-4AB3-89B9-659EA04D30B8} = {39D6E480-7400-4823-8C51-F7F275E3BE45}
+		{C6FDF826-145D-4253-BEB5-360338B48F30} = {39D6E480-7400-4823-8C51-F7F275E3BE45}
+		{CC3BD28D-7BC4-4CDE-9A09-C20FC1EA305F} = {4FB19FA5-BDBA-4A39-9BA4-9482CC6E3994}
+		{E1CE5113-09AE-483E-B3DF-1FE25059E6E7} = {4FB19FA5-BDBA-4A39-9BA4-9482CC6E3994}
+		{2C0B93CD-BCEB-4DA6-BF98-1AC0563558DF} = {4FB19FA5-BDBA-4A39-9BA4-9482CC6E3994}
+		{FF29D20F-5970-4471-825B-4E7FE3090B88} = {4FB19FA5-BDBA-4A39-9BA4-9482CC6E3994}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {98368743-6736-4F10-B3AF-404BD89CCB7F}
