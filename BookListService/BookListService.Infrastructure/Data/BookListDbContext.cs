@@ -22,7 +22,7 @@ public class BookListDbContext : DbContext
                 Title = "The Pragmatic Programmer",
                 Author = "Andrew Hunt, David Thomas",
                 Genre = "Programming",
-                Price = 39.99M,
+                Price = 35.99M,
                 PublishedDate = new DateTime(1999, 10, 20)
             },
             new Book
@@ -31,7 +31,7 @@ public class BookListDbContext : DbContext
                 Title = "Clean Code",
                 Author = "Robert C. Martin",
                 Genre = "Programming",
-                Price = 49.99M,
+                Price = 45.99M,
                 PublishedDate = new DateTime(2008, 8, 1)
             }
         );
