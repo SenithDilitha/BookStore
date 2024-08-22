@@ -1,3 +1,5 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using ShoppingCartService.Domain.Interfaces;
 using ShoppingCartService.Infrastructure.Data;
 
@@ -10,7 +12,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddScoped<ICartItemRepository, CartItemRepository>();
+builder.Services.AddDbContext<ShoppingCartDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddScoped<ICartItemRepository, CartItemsSqlServerRepository>();
 builder.Services.AddScoped<IShoppingCartService, ShoppingCartService.Application.Services.ShoppingCartService>();
 
 var app = builder.Build();
